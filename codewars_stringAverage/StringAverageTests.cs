@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace codewars_stringAverage
 {
     [TestClass]
-    public class UnitTest1
+    public class StringAverageTests
     {
         [TestMethod]
         public void InputIsEmpty_shouldReturn_n_div_a()
@@ -48,7 +48,7 @@ namespace codewars_stringAverage
 
         private static void AccumShouldBe(string expect, string input)
         {
-            Assert.AreEqual(expect, new StringAverage().Accum(input));
+            Assert.AreEqual(expect, new Kata().AverageString(input));
         }
     }
 }

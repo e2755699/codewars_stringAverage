@@ -50,8 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="StringAverage.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Kata.cs" />
+    <Compile Include="StringAverageTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Choose>
