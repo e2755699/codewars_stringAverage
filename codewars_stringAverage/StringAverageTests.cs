@@ -15,18 +15,18 @@ namespace codewars_stringAverage
         }
 
         [TestMethod]
-        public void InputIsGreaterThanNine_shoudReturn_n_div_a()
-        {
-            var input = "ten";
-            var expect = "n/a";
-            AccumShouldBe(expect, input);
-        }
-
-        [TestMethod]
         public void Input_one_shouldReturn_one()
         {
             var input = "one";
             var expect = "one";
+            AccumShouldBe(expect, input);
+        }
+
+        [TestMethod]
+        public void InputIsGreaterThanNine_shoudReturn_n_div_a()
+        {
+            var input = "ten";
+            var expect = "n/a";
             AccumShouldBe(expect, input);
         }
 
